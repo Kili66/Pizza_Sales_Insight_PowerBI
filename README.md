@@ -66,4 +66,6 @@
 ### Bottom/Worst 5 Best Sellers by Order: a table that shows the bottom 5 pizza names and their total number of orders placed in ascending order
 * SQL: SELECT TOP 5 pizza_name, count(distinct order_id ) AS total_orders from pizza_sales GROUP BY pizza_name ORDER BY total_orders ASC
 * DAX: Bottom/Worst 5 Best Sellers by Order = TOPN(5, GROUPBY(pizza_sales, pizza_sales[pizza_name], "Total Orders", DISTINCTCOUNT(pizza_sales[order_id])), [Total Orders], ASC)
-  
+## Dashboard
+![Pizza](https://github.com/Kili66/Pizza_Sales_Insight_PowerBI/assets/66678981/0122346d-ea0f-4116-b4db-f93a47d10422)
+
