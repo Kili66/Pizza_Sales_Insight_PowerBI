@@ -1,5 +1,5 @@
 # Pizza_Sales_Insight_PowerBI
-## Pizza Sales Insight
+## Pizza Sales Insight Analysis using SQL, DAX, PowerQuery
 * This project aims to analyze the sales data of a pizza chain and provide insights on key performance indicators, trends, and best sellers. The data source is a table named pizza_sales, which contains the following columns:
 
 * order_id: a unique identifier for each order
